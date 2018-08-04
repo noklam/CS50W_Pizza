@@ -4,9 +4,15 @@ Web Programming with Python and JavaScript
 
 # Objectives
 
-* Experimenting with Test Driven Development approach, try to write test first.
+* Experimenting with Test Driven Development approach, try to write test first. Follow this book 
+Test-Driven Development with Python, 2nd Edition
+* Add CI into practice together with TDD
 * Become more comfortable with Django.
 * Gain experience with relational database design.
+
+# Tools
+
+* Django, Selenium, Travis CI
 
 # Milestones
 
