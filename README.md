@@ -14,6 +14,11 @@ Test-Driven Development with Python, 2nd Edition
 
 * Django, Selenium, Travis CI
 
+# Installation
+
+A webdriver is needed in order to run selenium
+https://github.com/mozilla/geckodriver/releases
+
 # Milestones
 
 ## Done:
