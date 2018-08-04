@@ -1,3 +1,7 @@
+os: window
+addons:
+  firefox: latest
+
 language: python
 python:
     - 3.6
