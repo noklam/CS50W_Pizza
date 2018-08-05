@@ -31,9 +31,8 @@ class NewVistorTest(unittest.TestCase):
 
         # He saw a menus for pizza abd various types of items
         menu = self.browser.find_element_by_id('menu')
-        self.assertEqual(menu.get_attribute('placeholder'))
         # He try to select a small pepperoni pizza and add them into a shopping cart
-        add_button = self.browser.find_element_by_id('add_item')
+        add_button = menu.find_element_by_id('add_item')
         self.fail('Finish the test!')
 
         # The web shows a total price of the pizza that he ordered
