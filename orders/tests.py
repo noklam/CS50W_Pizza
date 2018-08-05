@@ -1,23 +1,14 @@
 from django.test import TestCase
 from selenium import webdriver
+import os
 
-class NewVistorTest(TestCase):
+def file_uri(filename):
+    return pathlib.Path(os.path.abspath(filename)).as_uri()
 
-    def setUp(self):        
-        self.browser = webdriver.Firefox('../')
-        self.browser.implicitly_wait(3)
-        
-    
-    def tearDown(self):
-        self.browser.quit()
+DRIVER_PATH = pathlib.Path(os.path.abspath('geckodriver.exe')).as_posix() # On window, it's a bit weird, hacking for now.
 
-    def test_index_page_correct_title(self):
-        self.browser.get('http://localhost:8000')
-        self.assertEqual('Pizzaa', self.browser.title)
 
-if __name__ == '__main__':
-    unittest.main(warnings='ignore')
-
+PATH = os.path.abspath('geckodriver.exe')
     # Create your tests here.
 def test_index(self):
     self.assertEqual(response.status_code, 200)

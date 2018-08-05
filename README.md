@@ -1,14 +1,16 @@
 # Project 3
 
 Web Programming with Python and JavaScript
+Pizza Ordering System with Django
 
 # Objectives
 
-* Experimenting with Test Driven Development approach, try to write test first. Follow this book 
+* Experimenting with Test Driven Development approach, try to write test first. Follow this book. (Good to have)
 Test-Driven Development with Python, 2nd Edition
-* Add CI into practice together with TDD
-* Become more comfortable with Django.
-* Gain experience with relational database design.
+* Add CI into practice together with TDD (Good to have)
+* Become more comfortable with Django.(Must)
+* Gain experience with relational database design.(Must)
+* Develop the registration features and order features in different branch, and merge them at later, to simulate real-life working env. (Must)
 
 # Tools
 
@@ -29,6 +31,14 @@ https://github.com/mozilla/geckodriver/releases
 * Complete the Menu, Adding Items, and Registration/Login/Logout steps.
 * Complete the Shopping Cart and Placing an Order steps.
 * Complete the Viewing Orders and Personal Touch steps.
+
+## Progress
+
+ 08/05/2018:
+
+* Create functional_test for user story
+* Create unittest
+
 
 # Requirements
 
