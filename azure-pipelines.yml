@@ -8,7 +8,7 @@ pool:
   strategy:
     matrix:
       Python35:
-        python.version: '3.6.5 (x64)
+        python.version: '3.6.5 (x64)'
       Python36:
         python.version: '3.7.0 (x64)'
     maxParallel: 2
