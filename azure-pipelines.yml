@@ -7,14 +7,14 @@ jobs:
   pool:
     vmImage: 'Ubuntu-16.04'
     # Run the pipeline with multiple Python versions
-    strategy:
-      matrix:
-        Python36:
-          python.version: '3.6'
-        Python37:
-          python.version: '3.7'
-      # Increase the maxParallel value to simultaneously run the job for all versions in the matrix (max 10 for free open-source)
-      maxParallel: 4
+  strategy:
+    matrix:
+      Python36:
+        python.version: '3.6'
+      Python37:
+        python.version: '3.7'
+    # Increase the maxParallel value to simultaneously run the job for all versions in the matrix (max 10 for free open-source)
+    maxParallel: 2
 
   steps:
     # Set the UsePythonVersion task to reference the matrix variable for its Python version
