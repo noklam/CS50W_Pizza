@@ -16,23 +16,23 @@ jobs:
       # Increase the maxParallel value to simultaneously run the job for all versions in the matrix (max 10 for free open-source)
       maxParallel: 4
 
-    steps:
-      # Set the UsePythonVersion task to reference the matrix variable for its Python version
-    - task: UsePythonVersion@0
-      inputs:
-        versionSpec: '$(python.version)'
-        architecture: 'x64'       
+  steps:
+    # Set the UsePythonVersion task to reference the matrix variable for its Python version
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: '$(python.version)'
+      architecture: 'x64'       
 
-    - script: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-      displayName: 'Install dependencies'
-      continueOnError: true
+  - script: |
+      python -m pip install --upgrade pip
+      pip install -r requirements.txt
+    displayName: 'Install dependencies'
+    continueOnError: true
 
-    - script: |
-        echo Add other tasks to build, test, and deploy your project.
-        echo See https://aka.ms/yaml
-        python manage.py test
-      displayName: 'Run a multi-line script'
-      continueOnError: true
+  - script: |
+      echo Add other tasks to build, test, and deploy your project.
+      echo See https://aka.ms/yaml
+      python manage.py test
+    displayName: 'Run a multi-line script'
+    continueOnError: true
 
