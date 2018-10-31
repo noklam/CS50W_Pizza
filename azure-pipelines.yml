@@ -5,7 +5,7 @@
 jobs:
 - job: 'Test_AzureDevOps'
   pool:
-    vmImage: 'Ubuntu 16.04'
+    vmImage: 'Ubuntu-16.04'
     # Run the pipeline with multiple Python versions
     strategy:
       matrix:
