@@ -1,5 +1,5 @@
 # Project 3
-
+![](https://dev.azure.com/lrcnok0929/lrcnok0929/_apis/build/status/noklam.CS50W_Pizza)
 Web Programming with Python and JavaScript
 Pizza Ordering System with Django
 
