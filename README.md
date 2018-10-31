@@ -1,6 +1,8 @@
 # Project 3
-![](https://dev.azure.com/lrcnok0929/lrcnok0929/_apis/build/status/noklam.CS50W_Pizza)
+[![Build Status](https://dev.azure.com/lrcnok0929/lrcnok0929/_apis/build/status/noklam.CS50W_Pizza)((https://dev.azure.com/fastdotai/fastai/_build/latest?definitionId=1)
 Web Programming with Python and JavaScript
+
+
 Pizza Ordering System with Django
 
 # Objectives
