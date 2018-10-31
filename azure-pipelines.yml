@@ -3,7 +3,7 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 jobs:
-- job: 'Test AzureDevOps'
+- job: 'Test_AzureDevOps'
   pool:
     vmImage: 'Ubuntu 16.04'
     # Run the pipeline with multiple Python versions
