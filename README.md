@@ -1,5 +1,6 @@
 # Project 3
 [![Build Status](https://dev.azure.com/lrcnok0929/lrcnok0929/_apis/build/status/noklam.CS50W_Pizza)](https://dev.azure.com/lrcnok0929/lrcnok0929/_build/latest?definitionId=3)
+[![Build Status](https://travis-ci.org/noklam/CS50W_Pizza.svg?branch=master)](https://travis-ci.org/noklam/CS50W_Pizza)
 
 ## Web Programming with Python and JavaScript
 
